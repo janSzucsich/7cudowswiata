@@ -1,0 +1,349 @@
+body {margin: 0px; margin-top: 90px; margin-bottom: 40px; font-family: "Dancing Script", cursive; color: #2E3233; text-align: center;}
+#tytul {background-color: #bd7f39; width: 100%; height: 270px; float: left; margin: 0;  display: flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */}
+#tresc {background-color: #f0b617; width: 96%; height: auto; float: left; margin: 0; padding-left: 2%; padding-right: 2%; }
+#nawigator {background-color: #788a45; width: 7%; height: 150px; float: right; }
+#stopka {background-color: #95bd39; width: 100%; display: flex; justify-content: center; align-content: center; height: 4%px; margin-top: 4%px; }
+#stekst {float: bottom; font-size: max(1.5vw, 12px); }
+
+
+.meeni {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  position: fixed; /* Stałe pozycjonowanie */
+  width: 100%; /* Pełna szerokość */
+  height: 50px;
+  top: 0; /* Przyklejone do góry */
+  z-index: 1; /* Zawsze na wierzchu */
+}
+
+.meeniol {
+  background-color: #0000008c;
+  padding: 0px;
+  text-align: center;
+  position: fixed; /* Stałe pozycjonowanie */
+  width: 100%; /* Pełna szerokość */
+  height: 40px;
+  bottom: 0; /* Przyklejone do góry */
+  z-index: 1; /* Zawsze na wierzchu */
+}
+
+
+
+@media screen and (max-width : 1200px ){
+	body {margin: 0px; margin-top: 90px; margin-bottom: 40px;}
+	#tytul {background-color: #bd39bd; width: 100%; height: 110px; float: left; margin: 0;}
+	.meeni {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Stałe pozycjonowanie */
+    width: 100%; /* Pełna szerokość */
+    height: 50px;
+    top: 0; /* Przyklejone do góry */
+    z-index: 1; /* Zawsze na wierzchu */
+  }
+  
+  .meeniol {
+    background-color: #0000008c;
+    padding: 0px;
+    text-align: center;
+    position: fixed; /* Stałe pozycjonowanie */
+    width: 100%; /* Pełna szerokość */
+    height: 40px;
+    bottom: 0; /* Przyklejone do góry */
+    z-index: 1; /* Zawsze na wierzchu */
+  }
+	#tresc {background-color: #c517f0; width: 96%; height: auto; float: left; margin: 0; }
+
+  .pc{
+    width: 50%;
+    float: left;
+  }
+  .os{
+    width: 50%;
+    float: left;
+  }
+  .sa{
+    width: 50%;
+    float: left;
+  }
+  .pz{
+    width: 50%;
+    float: left;
+  }
+  .mh{
+    width: 50%;
+    float: left;
+  }
+  .kr{
+    width: 50%;
+    float: left;
+  }
+  .lm{
+    width: 50%;
+    float: center;
+  }
+  
+
+  
+
+
+
+
+
+}
+
+@media screen and (max-width : 900px ){
+  body {margin: 0px; margin-top: 90px; margin-bottom: 40px;}
+	#tytul {background-color: rgb(174, 192, 150); width: 100%; height: 110px; float: left; margin: 0; }
+	.meeni {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Stałe pozycjonowanie */
+    width: 100%; /* Pełna szerokość */
+    height: 50px;
+    top: 0; /* Przyklejone do góry */
+    z-index: 1; /* Zawsze na wierzchu */
+  }
+  
+  .meeniol {
+    background-color: #0000008c;
+    padding: 0px;
+    text-align: center;
+    position: fixed; /* Stałe pozycjonowanie */
+    width: 100%; /* Pełna szerokość */
+    height: 40px;
+    bottom: 0; /* Przyklejone do góry */
+    z-index: 1; /* Zawsze na wierzchu */
+  }
+	#tresc {background-color: #73f8af; width: 96%; height: auto; float: left; margin: 0; }
+
+
+}
+
+@media screen and (max-width : 600px ){
+	body {margin-bottom: 40px; }
+	#tytul {background-color: #39AFBD; width: 100%; height: 80px; float: left; margin: 0; padding-top: 20px;}
+	#nawigator {background-color: #45838A; width: 100%; height: 50px; float: right; }
+	#tresc {background-color: #17DBF0; width: 93vw; height: auto; float: left; margin: 0; }
+
+.table{
+  max-width: 600px; width: auto;
+  height: auto;
+  align-self: center;
+  font-size: smaller;
+}
+
+
+ 
+
+
+	.meeni {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Stałe pozycjonowanie */
+    width: 100%; /* Pełna szerokość */
+    height: auto;
+    top: 0; /* Przyklejone do góry */
+    z-index: 1; /* Zawsze na wierzchu */
+  
+  }
+  
+  .meeniol {
+    background-color: #0000008c;
+    padding: 0px;
+    text-align: center;
+    position: fixed; /* Stałe pozycjonowanie */
+    width: 100%; /* Pełna szerokość */
+    height: 40px;
+    bottom: 0; /* Przyklejone do góry */
+    z-index: 1; /* Zawsze na wierzchu */
+  }
+
+
+
+
+
+}
+.tytul {text-align: center; font-size: max(3.5vw, 25px) ; animation: tytul 3s infinite; display: flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */}
+.teksth {font-size: max(2vw, 18px); }
+.tekst {font-size: max(1.5vw, 12px); }
+.gl {width: 30%; min-width: 200px; }
+li {font-size: max(1.3vw, 10px); list-style-type: upper-roman;}
+table, th, td {border: 1px solid; text-align: center; }
+
+  
+ 
+  
+
+
+  @keyframes tytul {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  
+  .tytul {
+    animation: tytul 2s ease-in-out 10;
+  }
+
+
+
+
+
+
+
+
+.ul {
+  align-items: center;
+  text-align: left;
+  
+}
+
+
+
+
+
+/*Z w3schools
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 0px;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
+  background-color: #3D5457;
+  color: white;
+}
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev{
+  cursor: crosshair;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  cursor: crosshair;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
